@@ -1,8 +1,0 @@
-spring:
-  application:
-    name: springsecuritymaster
-  security:
-    user:
-      name: user
-      password: 1111
-      roles: USER
