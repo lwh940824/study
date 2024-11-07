@@ -42,6 +42,7 @@ public class SecurityConfig {
                             System.out.println("exception: " + exception.getMessage());
                             response.sendRedirect("/login");
                         })
+
                         .permitAll()
                 );
         return http.build();
